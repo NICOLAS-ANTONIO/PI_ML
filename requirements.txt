@@ -11,6 +11,7 @@ executing==2.0.1
 fastparquet==2023.10.1
 fonttools==4.47.2
 fsspec==2024.2.0
+h11==0.14.0
 ipykernel==6.29.1
 ipython==8.21.0
 jedi==0.19.1
@@ -50,5 +51,7 @@ threadpoolctl==3.2.0
 tornado==6.4
 tqdm==4.66.1
 traitlets==5.14.1
+typing_extensions==4.9.0
 tzdata==2023.4
+uvicorn==0.27.0.post1
 wcwidth==0.2.13
