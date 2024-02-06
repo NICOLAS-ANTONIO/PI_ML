@@ -6,14 +6,14 @@ import gc  # Para la gestión de la memoria
 
 app = FastAPI()
 
-# Cargar los archivos parquet de forma perezosa
+# Cargar los archivos parquet 
 archivos_parquet = {
     'df_ur': 'DataSet/clean_df_ur.parquet',
     'df_ui': 'DataSet/definitivo_df_ui.parquet',
     'df_sg': 'DataSet/definitivo_df_sg.parquet'
 }
 
-# Optimización: Funciones para cargar DataFrames de forma perezosa
+# Optimización: Funciones para cargar DataFrames
 def cargar_dataframe(nombre):
     try:
         if nombre in archivos_parquet:
@@ -99,7 +99,7 @@ def developer(desarrollador, df_sg):
 @app.get("/userdata/{user_id}")
 async def get_userdata(user_id: str):
     try:
-        # Cargar los DataFrames necesarios de forma perezosa
+        # Cargar los DataFrames necesarios 
         df_ui = cargar_dataframe('df_ui')
         df_sg = cargar_dataframe('df_sg')
         df_ur = cargar_dataframe('df_ur')
@@ -115,7 +115,7 @@ def userdata(user_id, df_ui, df_sg, df_ur):
     # Filtrar df_ui para el usuario especificado
     user_items = df_ui[df_ui['user_id'] == user_id]
     
-    # Optimizar el uso de memoria convirtiendo los IDs a categorías si aún no lo son
+    # Optimizar el uso de memoria convirtiendo los IDs a categorías 
     if user_items['item_id'].dtype != 'category':
         user_items['item_id'] = user_items['item_id'].astype('category')
     
@@ -212,7 +212,7 @@ def best_developer_year(anio, df_ur, df_sg):
     # Obtener el top 3 de desarrolladores
     top_3_desarrolladores = conteo_recomendaciones.head(3).index.tolist()
 
-    # Preparar y retornar el resultado en el formato deseado
+    # Preparar y retornar el resultado 
     resultado = [{"Puesto " + str(i+1): dev} for i, dev in enumerate(top_3_desarrolladores)]
 
     return resultado
