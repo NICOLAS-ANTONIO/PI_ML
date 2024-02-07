@@ -48,6 +48,5 @@ Se pueden revisar los endpoints y el modelo de recomendación desplegados en ren
 
 
 ### Video solicitado
-Se puede ver el video explicando brevemente el modelo y probando el deploy aquí: https://drive.google.com/file/d/1I05_P2-7fQ5Lmch__juULZMALHuc7EJv/view?usp=sharing
-
+Se puede ver el video explicando brevemente el modelo y probando el deploy aquí: https://drive.google.com/file/d/12bG3Tzb7Q6fWYsuH5ro3w-Q0ADrsXeMn/view?usp=sharing
 
