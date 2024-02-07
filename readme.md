@@ -44,7 +44,7 @@ El proyecto se estructura en torno a cuatro etapas principales (ETLs, EDA, Funci
 
 
 ### Deploy render   
-Se pueden revisar los endpoints y el modelo de recomendación desplegados en render en el siguiente link: https://steam-ml-loh5.onrender.com/docs
+Se pueden revisar los endpoints y el modelo de recomendación desplegados en render en el siguiente link: https://pi1-fstq.onrender.com/docs
 
 
 ### Video solicitado
