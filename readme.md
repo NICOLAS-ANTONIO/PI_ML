@@ -26,24 +26,25 @@ El proyecto se estructura en torno a cuatro etapas principales (ETLs, EDA, Funci
 ### Módulos y Librerias Utilizadas
 
 - **Módulos de la Biblioteca Estándar de Python**:
-        - json: Módulo para trabajar con datos JSON.
-        - warnings: Módulo para emitir alertas.
-        - re: Módulo para trabajar con expresiones regulares.
-        - gc: Módulo para la gestión del recolector de basura.
-        - ast: Módulo de la biblioteca estándar de Python para el procesamiento, creación y manipulación del árbol de sintaxis abstracta de Python.
+    - `json`: Módulo para trabajar con datos JSON.
+    - `warnings`: Módulo para emitir alertas.
+    - `re`: Módulo para trabajar con expresiones regulares.
+    - `gc`: Módulo para la gestión del recolector de basura.
+    - `ast`: Módulo de la biblioteca estándar de Python para el procesamiento, creación y manipulación del árbol de sintaxis abstracta de Python.
 
 - **Librerías Externas**:
-        - pandas: Librería para manipulación y análisis de datos.
-        - matplotlib.pyplot: Librería para crear gráficos y visualizaciones.
-        - seaborn: Librería basada en matplotlib para visualizaciones estadísticas.
-        - numpy: Librería para el soporte de vectores y matrices grandes multidimensionales.
-        - textblob: Librería para procesamiento de texto simplificado y análisis de sentimiento.
-        - sklearn.decomposition.PCA: Componente de la librería scikit-learn para Análisis de Componentes Principales.
-        - sklearn.metrics.pairwise.cosine_similarity: Componente de la librería scikit-learn para calcular la similitud coseno entre vectores.
-        - fastapi: Framework para construir APIs con Python 3.7+.
+    - `pandas`: Librería para manipulación y análisis de datos.
+    - `matplotlib.pyplot`: Librería para crear gráficos y visualizaciones.
+    - `seaborn`: Librería basada en matplotlib para visualizaciones estadísticas.
+    - `numpy`: Librería para el soporte de vectores y matrices grandes multidimensionales.
+    - `textblob`: Librería para procesamiento de texto simplificado y análisis de sentimiento.
+    - `sklearn.decomposition.PCA`: Componente de la librería scikit-learn para Análisis de Componentes Principales.
+    - `sklearn.metrics.pairwise.cosine_similarity`: Componente de la librería scikit-learn para calcular la similitud coseno entre vectores.
+    - `fastapi`: Framework para construir APIs con Python 3.7+.
 
-### Módulos y Librerias Utilizadas    
-Se puede revisar los endpoints y el modelo de recomendación desplegados en render en el siguiente link: https://steam-ml-loh5.onrender.com/docs
+
+### Deploy render   
+Se pueden revisar los endpoints y el modelo de recomendación desplegados en render en el siguiente link: https://steam-ml-loh5.onrender.com/docs
 
 
 ### Video solicitado
