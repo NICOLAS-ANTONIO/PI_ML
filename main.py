@@ -5,6 +5,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 import gc  # Para la gestión de la memoria
 
 app = FastAPI()
+# Redirigir de la raíz a /docs
+@app.get("/", include_in_schema=False)
+async def root_redirect():
+    return RedirectResponse(url='/docs')
 
 # Cargar los archivos parquet 
 archivos_parquet = {
