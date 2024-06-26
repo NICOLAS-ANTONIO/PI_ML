@@ -42,11 +42,3 @@ El proyecto se estructura en torno a cuatro etapas principales (ETLs, EDA, Funci
     - `sklearn.metrics.pairwise.cosine_similarity`: Componente de la librería scikit-learn para calcular la similitud coseno entre vectores.
     - `fastapi`: Framework para construir APIs con Python 3.7+.
 
-
-### Deploy render   
-Se pueden revisar los endpoints y el modelo de recomendación desplegados en render en el siguiente link: https://pi1-fstq.onrender.com/docs
-
-
-### Video solicitado
-Se puede ver el video explicando brevemente el modelo y probando el deploy aquí: https://drive.google.com/file/d/12bG3Tzb7Q6fWYsuH5ro3w-Q0ADrsXeMn/view?usp=sharing
-
